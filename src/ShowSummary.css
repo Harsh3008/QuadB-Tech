@@ -1,0 +1,93 @@
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-text {
+  text-align: justify;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #4a90e2;
+  border-color: #4a90e2;
+  margin-top: 1.5rem;
+}
+
+.btn-primary:hover {
+  background-color: #387dd8;
+  border-color: #387dd8;
+}
+
+.booking-form-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.booking-form label {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="email"] {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 30rem;
+}
+
+.booking-form button[type="submit"] {
+  background-color: #4a90e2;
+  border-color: #4a90e2;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.booking-form button[type="submit"]:hover {
+  background-color: #387dd8;
+  border-color: #387dd8;
+}
+
+.error-message {
+  color: red;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
